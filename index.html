@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Binary Search Visualizer</h1>
+
+        <div class="input-section">
+            <label>Enter Element: <input type="text" id="arrayInput" class="input-field"></label>
+            <label>Enter Target: <input type="number" id="targetInput" class="input-field"></label>
+        </div>
+
+        <div class="input-section">
+            <button class="button" id="startSearch">Search</button>
+            <button class="button" id="clearInput">Clear</button>
+        </div>
+
+        <p class="note">Note: Binary search works only on sorted arrays. Unsorted arrays will be sorted automatically before the search.</p>
+    </div>
+
+    <div class="cont" id="arrayContainer"></div>
+    <div class="steps" id="stepsContainer"></div>
+
+    <div class="navigation-buttons">
+        <button class="nav-button" id="prevStep">Previous</button>
+        <button class="nav-button" id="nextStep">Next</button>
+    </div>
+
+   <script src ="script.js"></script>
+</body>
+</html>

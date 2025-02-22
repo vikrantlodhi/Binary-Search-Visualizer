@@ -1,0 +1,126 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2vh;
+        }
+
+        h1 {
+            font-size: 4vw;
+            margin: 1vh 0;
+        }
+
+        .input-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1vw;
+            margin: 1vh 0;
+        }
+
+        .input-field {
+            width: 10vw;
+            min-width: 80px;
+            padding: 1vh;
+            font-size: 1.5vw;
+            border: 2px solid red;
+            border-radius: 5px;
+            background: none;
+            color: white;
+            text-align: center;
+        }
+
+        .button {
+            padding: 1vh 2vw;
+            font-size: 1.5vw;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .note {
+            font-size: 1.5vw;
+            margin: 1vh 0;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1vw;
+            flex-wrap: wrap;
+            margin: 2vh 0;
+            padding: 1vh;
+        }
+
+        .box {
+            width: 6vw;
+            aspect-ratio: 1 / 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2vw;
+            font-weight: bold;
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+        }
+
+        .steps {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5vw;
+            border-top: 1px solid white;
+            margin: 0;
+            padding: 1vh 0;
+            overflow-y: auto;
+            max-height: 60vh;
+        }
+
+        .steps p {
+            margin: 0.3vh 0;
+            line-height: 1.2;
+        }
+
+        .current-step {
+            border: solid;
+            border-color: white;
+            padding: 0.5vw;
+            border-radius: 3px;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 2vw;
+            margin: 1vh 0;
+        }
+
+        .nav-button {
+            padding: 1vh 2vw;
+            font-size: 1.5vw;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    
